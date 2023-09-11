@@ -1,0 +1,58 @@
+*{
+    background-color: #cdb4db;
+}
+#main_heading{
+    color: #03045e;
+    text-align: center;
+}
+#size{
+    color: #023e8a;
+}
+.BIU{
+    color: #b7094c;
+}
+#subsup{
+    color: cyan;
+}
+#saa{
+    color: bisque;
+}
+#divs{
+    color: rgb(240, 240, 255);
+}
+#ulol{
+    color: aquamarine;
+}
+#table{
+    color: antiquewhite;
+}
+#form{
+    color: aliceblue;
+}
+#test1{
+    text-decoration: overline;
+}
+#test2{
+    font-weight: 900;
+}
+#test3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#test4{
+    font-size: 50px;
+}
+#test5{
+    font-size: 10px;
+}
+#test6{
+    line-height: 100px;
+}
+#test7{
+    line-height: 10px;
+}
+#test8{
+    text-transform: uppercase;
+}
+#test9{
+    text-transform: lowercase;
+}

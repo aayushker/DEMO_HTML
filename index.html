@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- So I am building this program to revise what I have learned -->
+</head>
+<body>
+  <header>
+    <h1 id="main_heading">This is a program to remember the concepts</h1>
+  </header>
+  <main>
+    <section id="size">
+      <!-- These define the size of the heading -->
+      <h1>Size 1</h1>
+      <h2>Size 2</h2>
+      <h3>Size 3</h3>
+      <h4>Size 4</h4>
+      <h5>Size 5</h5>
+      <h6>Size 6</h6>
+    </section>
+    <br>
+    <section>
+      <!-- This depicts an Anchor tag -->
+      <a href="https://youtu.be/dQw4w9WgXcQ">Google</a>
+      <!-- Anchor tag is of two types Absolute where we link a webpage from internet and Relative where we link our own webpage to the current webpage -->
+      <br>
+      <!-- This depicts a image insertion -->
+      <img src="/image.jpg" alt="GitHub" height="300">
+      <!-- We can also insert an image from the internet here -->
+    </section>
+    <br>
+    <!-- Here the <br> tag is used to add next line to our webpage  -->
+    <!-- This is paragraph tag  -->
+    <p class="BIU">
+      <!-- Here I am demonstrating Bold, Italic & Underline Tag to highlight the text  -->
+      <b>Bold</b>
+      <br>
+      <i>Italics</i>
+      <br>
+      <u>Underline</u>
+      <br>
+      <br>
+      <!-- The big and small tags are used to display small and big text  -->
+      <big>Big</big>
+      <br>
+      <small>Small</small>
+      <hr>
+      <!-- Here the <hr> tag is used to draw a horizontal line which seperates the content -->
+    </p>
+    <section id="subsup">
+      <!-- The subscript and superscript is used to write chemical equations or mathematical formulas involving powers  -->
+      H<sub>2</sub>O 
+      <br>
+      A<sup>2</sup>+B<sup>2</sup>=C<sup>2</sup>
+      <br>
+      <!-- The <pre> tag is used to include the spaces and next line text which is otherwise ignored by the compiler  -->
+      <pre>
+        This text contains lots of spaces             which is now registered and
+        also a new line is also taken.
+      </pre>
+      <!-- The shortcut lorem is used to input a sample text. Here after writing lorem we can specify the words also for example lorem5, lorem 300, etc -->
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam tempore quae natus aspernatur incidunt assumenda error, sint, facere unde dignissimos quasi quos in commodi explicabo, mollitia aliquam molestias dolore. Dolores?
+    </section>
+    <hr>
+    <!-- Now we again look into various main tags -->
+    <section id="saa">
+      <section>This tag is used to create a section on your page</section>
+      <article>This tag is used when we want to write an article on the webpage</article>
+      <aside>The aside tag is used to tell the code editor that this code does not come in the main code</aside>
+    </section>
+    <!-- Now we are going to again to visit the Anchor tag -->
+    <section >
+      <a href="https://youtu.be/dQw4w9WgXcQ" target="_main" >Google</a>
+      <!-- Here the target _main will make the link open in a new tab  -->
+      <br>
+      <a href="https://youtu.be/dQw4w9WgXcQ"><img src="image.jpg" width="300" alt="Wednesday"></a>
+      <!-- Here a image will be presented which on clicking will lead to the attached link  -->
+    </section>
+    <section id="divs">
+      <!-- Now we are seeing a <div> tag which in container tag has does not have a meaning on its own but the effects applied on div tag is applied on whole content inside it. It is a block element which means it takes full width of the page just like the header and footer tag  -->
+      <div>
+        This is div tag
+      </div>
+      <!-- Then comes the <span> tag which is also a container tag but the main difference is that it is a Inline element tag which means it takes only necessary width  -->
+      <span>
+        This is a span tag
+      </span>
+    </section>
+    <hr>
+    <h4>This is a sample list</h4> 
+    <!-- Now we are going to see to build lists and tables in HTML  -->
+    <section id="ulol">
+      <!-- Firstly we will see the unordered list or <ul>, in this the data is kept in bullets which can be later customised by CSS  -->
+      <ul>
+        <li>Harry</li>
+        <li>Jerry</li>
+        <li>Berry</li>
+      </ul>
+      <!-- Then we are going to see ordered list or <ol>, here the data is kept in numbered list(1,2,3,4) which can also be customised by CSS  -->
+      <ol>
+        <li>Terry</li>
+        <li>Henry</li>
+        <li>Derry</li>
+      </ol>
+      <!-- These list can also contain sublists  -->
+    </section>
+    <hr>
+    <h4>This is a sample table</h4> 
+    <section id="table">
+      <!-- Here we are seeing a table, learn the sequence here.
+      Caption here talks what the table is about.
+      Colspan here used to make a heading which extends to several columns, value here indicates how many col we what to merge.
+      The <thead> and <tbody> is used to wrap the text which means it does not reflect any difference as such but tells the text editor and coders where is the and heading of the table and where is the body. -->
+      <table>
+        <thead>
+          <caption>Birthdays</caption>
+          <tr>
+            <th colspan="2">Data</th>
+          </tr>
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aayushker</td>
+            <td>26/08</td>
+          </tr>
+          <tr>
+            <td>Gaurav</td>
+            <td>07/02</td>
+          </tr>
+          <tr>
+            <td>Yashwant</td>
+            <td>25/12</td>
+          </tr>
+        </tbody>  
+      </table>
+    </section>
+    <hr>
+    <!-- Now we are going to see Forms in HTML  -->
+    <h4>This is a sample form</h4>
+    <section id="form">
+      <form action="/action.php">
+        <!-- Here in action area we write the name of the file where the data would be pushed -->
+        Enter your creditentials
+        <br>
+        <input type="text" placeholder="Enter Username">
+        <br>
+        <input type="password" placeholder="Enter Password">
+        <br><br>
+        <!-- The type radio is used to display a checkbox with a single correct option -->
+        <label for="id1">
+          Choose your Class
+          <br>
+          <input type="radio" value="Class X" name="Class" id="id1">Class X
+          <input type="radio" value="Class XI" name="Class">Class XI
+          <input type="radio" value="Class XII" name="Class">Class XII
+        </label>
+        <!-- So here we have assigned ids for the same class group. Its importancemainly lies in doing backend -->
+        <div id="id1" class="group 1">
+        </div>
+        <div id="id2" class="group 1">
+        </div>
+        <br>
+        <!-- The checkbox is used to input a checkbox with multiple correct input section -->
+        Select the subjects you studied
+        <br>
+        <label for="id1">
+          <input type="checkbox" value="Physics" name="Class" id="id1">Physics
+        </label>
+        <label for="id2">
+          <input type="checkbox" value="Chemistry" name="Class" id="id2">Chemistry
+        </label>
+        <label for="id3">
+          <input type="checkbox" value="Maths" name="Class" id="id3">Maths
+        </label>
+        <br><br>
+        <!-- The textarea is used to input a large amount of text like a suggestion box or experience box. We can add no. of rows and columns to specify the space taken -->
+        Feedback
+        <br>
+        <textarea name="feedback" id="101" placeholder="Please give your feedback" rows="5" cols="70"></textarea>
+        <br><br>
+        <!-- Select tag is used to build dropdown menu for a form -->
+        Please select your city
+        <select name="City" id="city">
+          <option value="Lucknow">Lucknow</option>
+          <option value="Ghaziabad">Ghaziabad</option>
+          <option value="Delhi">Delhi</option>
+        </select>
+        <br><br>
+        <!-- The submit is used to forward the data entered to the backend -->
+        <input type="submit" value="submit">
+      </form>
+    </section>
+    <hr>
+    <section>
+      <!-- The iframe tag is used to display website inside website mostly Youtube and Wikipedia without redirecting in a new tab  -->
+      <!-- The Youtube iframe link can be generated by right clicking the video and selecting copy embeded code  -->
+      <iframe width="935" height="526" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br><br>
+      <!-- Now we are seeing a Video tag where we can display videos. This tag gives us attributes like controls(which enables player controls), height, width, loop and autoplay  -->
+      <video src="https://www.youtube.com/embed/dQw4w9WgXcQ" controls width="935" height="526">Avengers Assemble</video>
+    </section>
+    <hr>
+    <h4>These sections are specifically made for testing CSS</h4>
+    <section>
+      <p id="test1">Overline</p>
+      <p id="test2">Font Weight</p>
+      <p id="test3">Font Changed</p>
+    </section>
+    <section>
+      <p id="test4">Pixels</p>
+      <p id="test5">Pixel</p>
+    </section>
+    <section>
+      <p id="test6">LineHeight</p>
+      <p id="test7">lineheight</p>
+      <p id="test8">uppercase: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, maiores!</p>
+      <p id="test9">lowercase: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, in.</p>
+    </section>
+  </main>
+  <footer>
+    <h6>This is the end of the document</h6>
+  </footer>
+</body>
+</html>
