@@ -1,9 +1,10 @@
 *{
-    background-color: #cdb4db;
+    background-color: #e2ce1a;
 }
 #main_heading{
     color: #03045e;
     text-align: center;
+    font-weight: bold;
 }
 #size{
     color: #023e8a;
@@ -12,13 +13,13 @@
     color: #b7094c;
 }
 #subsup{
-    color: cyan;
+    color: rgb(255, 85, 0);
 }
 #saa{
-    color: bisque;
+    color: rgb(248, 138, 4);
 }
 #divs{
-    color: rgb(240, 240, 255);
+    color: rgb(0, 0, 255);
 }
 #ulol{
     color: aquamarine;
