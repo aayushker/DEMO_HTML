@@ -31,4 +31,7 @@
     bottom: 10px;
     position: sticky;
     top: 10px;
+    animation: alternate;
+    
+
 }
